@@ -1,0 +1,22 @@
+git init
+git add .
+git commit -m "Mensagem do Commit"
+
+Conectando o local ao remoto
+git remote add origin https://github.com/contadousuario/repositorio
+
+Para colocar funcionalidades específicas no projeto
+git checkout -b nome_funcionalidade (branch)
+
+Para subir as alterações e disponilizar online para outros desenvolvedores
+git push origin nome_funcionalidade
+
+Para deletar um branch
+git branch -d nome_funcionalidade
+
+Atualizar repo local de acordo com o remoto, após alterações de outros desenvolvedores
+git pull
+
+Fazendo um merge do que está online para o local
+git merge nome_do_branch (ex.: master)
+
