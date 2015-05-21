@@ -5,6 +5,9 @@ git commit -m "Mensagem do Commit"
 Conectando o local ao remoto
 git remote add origin https://github.com/contadousuario/repositorio
 
+ou... é possível clonar um repositório e começar a trabalhar a partir daí: 
+git clone https://github.com/contadousuario/repositorio
+
 Para colocar funcionalidades específicas no projeto
 git checkout -b nome_funcionalidade (branch)
 
